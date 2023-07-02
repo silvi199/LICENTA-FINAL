@@ -1,0 +1,114 @@
+.brand {
+  text-align: center;
+  width: 90%;
+  margin-inline: auto;
+  padding: 6px 31px;
+  border-radius: 5px;
+  border: 1px solid #dddddd25;
+  padding-bottom: 50px;
+  border-radius: 20px;
+  background: linear-gradient(128deg, rgba(11, 19, 68, 0.94) 0%, rgba(10, 14, 35, 0.49) 100%);
+  backdrop-filter: blur(60px);
+}
+
+.mt200 {
+  margin-top: 200px;
+}
+
+.grid_container {
+  flex-grow: 1;
+  display: flex;
+  width: 75.6%;
+  margin: auto;
+}
+
+.title {
+  padding: 0.75em;
+  padding-bottom: 0px;
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.card {
+  border-radius: 10px !important;
+  background: linear-gradient(175deg, rgba(6, 11, 38, 0.74) 0%, rgba(26, 31, 55, 0.50) 100%) !important;
+  backdrop-filter: blur(25px) !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: 0.1s all ease !important;
+  cursor: pointer !important;
+  padding-block: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.062)!important;
+}
+
+.card img {
+  object-fit: contain;
+  width: 140px;
+  height: 80px;
+}
+
+.cardcar img {
+  width: 200px;
+}
+
+.card h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.text {
+  font-size: xx-large;
+}
+
+.search {
+  width: 74%;
+  margin: 35px auto;
+  margin-top: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  position: relative;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+  color: white;
+}
+
+.searchInput {
+  width: 98%;
+  padding: 31px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin-right: 20px;
+  vertical-align: baseline;
+  overflow: visible;
+}
+
+.searchInput * {
+  color: rgba(255, 255, 255, 0.438) !important;
+}
+
+.searchInput .MuiInput-underline:after {
+  border-bottom: 2px solid #fff !important;
+}
+
+.searchInput .MuiInput-underline:before {
+  border-bottom: 1px solid #ffffff56 !important;
+}

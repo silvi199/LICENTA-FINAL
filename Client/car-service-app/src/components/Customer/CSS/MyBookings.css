@@ -1,0 +1,27 @@
+.container {
+  margin-top: 100px;
+}
+.mybooking{
+  color: white!important;
+}
+.mybooking h1{
+  font-size: 20px;
+  font-weight: 600;
+}
+.mybooking hr{
+  border: 1px solid rgba(255, 255, 255, 0.123);
+}
+.mybooking h4{
+  font-size: 18px;
+  font-weight: 400;
+}
+.grid-bookings .service_card{
+  width: 500px!important;
+  min-height: 100px!important;
+}
+.grid-bookings{
+  margin-top: 30px!important;
+  display: flex!important;
+  flex-wrap: wrap!important;
+  justify-content: center;
+}

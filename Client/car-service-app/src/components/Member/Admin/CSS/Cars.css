@@ -1,0 +1,151 @@
+.cars_container {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  margin-left: 230px;
+  margin-right: 20px;
+}
+
+.cars_container .MuiPaper-root {
+  border-radius: 20px;
+  background: linear-gradient(175deg, rgba(6, 11, 40, 0.74) 0%, rgba(10, 14, 35, 0.71) 100%);
+  backdrop-filter: blur(60px);
+  color: white !important;
+}
+
+.cars_container .MuiIcon-root {
+  color: white !important;
+}
+
+.cars_container .MuiToolbar-root h6 {
+  font-weight: 600;
+  font-size: 24px;
+  padding-block: 20px !important;
+}
+
+.cars_container .MuiToolbar-root .MuiInputBase-root {
+  color: rgba(255, 255, 255, 0.411);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.397) !important;
+}
+
+.cars_container .MuiTableCell-footer * {
+  color: white !important;
+}
+
+
+.cars_container .MuiSelect-root * {
+  color: rgba(255, 255, 255, 0.61) !important;
+}
+
+.cars_container .MuiSelect-icon {
+  color: rgba(255, 255, 255, 0.61) !important;
+}
+
+.cars_container .MuiTableRow-root {
+  color: white !important;
+  font-weight: 500;
+}
+
+.cars_container .MuiInputBase-root {
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: Poppins;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.397) !important;
+}
+
+.cars_container .MuiTableBody-root .MuiTableCell-root,
+.cars_container .MuiTableHead-root .MuiTableCell-root {
+  border-bottom: 1px solid #56577A !important;
+}
+
+.cars_container .MuiTableRow-footer * {
+  border-bottom: none !important;
+}
+
+.cars_container .MuiButtonBase-root {
+  color: white !important;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  border-radius: 12px;
+  background: #0075FF;
+  display: flex;
+  height: 35px;
+  padding: 5px 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: white;
+  outline: none;
+  border: none;
+}
+.cars_container .MuiTableCell-body {
+  color: white !important;
+  font-weight: 500;
+}
+.form-to-add{
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-inline: auto;
+  border-radius: 20px;
+  background: linear-gradient(175deg, rgba(6, 11, 40, 0.74) 0%, rgba(10, 14, 35, 0.71) 100%);
+  backdrop-filter: blur(60px);
+  color: white !important;
+  padding-block: 30px;
+}
+.login__form{
+  margin-top: 0px!important;
+}
+.closeform{
+  background: transparent;
+  color: rgba(255, 255, 255, 0.836);
+  outline: none;
+  border: none;
+  margin-inline: auto;
+  text-align: center;
+  display: flex;
+  margin-top: 5px;
+}
+.login__form *{
+  color: white!important;
+}
+.login__form .MuiInputBase-root{
+  border: 1px solid transparent!important;
+  outline: 1px solid rgba(255, 255, 255, 0.144);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.281)!important;
+}
+.login__form .MuiGrid-root span{
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.411)!important;
+}
+.login__form .login_button{
+  background: #0075FF;
+  border-radius: 12px;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 5px 20px;
+  margin-top: 20px;
+}
+.modalBg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(100px);
+  width: 100vw;
+  height: 100vh;
+}
+.finished-orders{
+  margin-top: 280px;
+  margin-bottom: 20px;
+  margin-left: 230px;
+  margin-right: 40px;
+}
